@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+pylint = "*"
+
+[packages]
+flask = "*"
+gunicorn = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+structlog = "*"
+sqlalchemy = "*"
+flask-prom = "*"
+healthcheck = "*"
+confluent-kafka = "*"
+psycopg2-binary = "*"
+
+[scripts]
+start = "flask run"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
