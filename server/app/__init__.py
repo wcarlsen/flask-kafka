@@ -11,7 +11,6 @@ migrate = Migrate()
 
 def create_app(configuration):
 
-
     logger = get_logger()
 
     logger.info("Initialising app")
